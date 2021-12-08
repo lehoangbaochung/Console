@@ -1,0 +1,16 @@
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ImageProcessing.exe
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ImageProcessing.deps.json
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ImageProcessing.runtimeconfig.json
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ImageProcessing.dll
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ref\ImageProcessing.dll
+D:\Repositories\Console\ImageProcessing\bin\Debug\net6.0\ImageProcessing.pdb
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.GlobalUsings.g.cs
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.csproj.AssemblyReference.cache
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.AssemblyInfoInputs.cache
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.AssemblyInfo.cs
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.csproj.CoreCompileInputs.cache
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.dll
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ref\ImageProcessing.dll
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.pdb
+D:\Repositories\Console\ImageProcessing\obj\Debug\net6.0\ImageProcessing.genruntimeconfig.cache

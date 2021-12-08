@@ -1,0 +1,16 @@
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.GlobalUsings.g.cs
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.csproj.AssemblyReference.cache
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.AssemblyInfoInputs.cache
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.AssemblyInfo.cs
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.csproj.CoreCompileInputs.cache
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\InformationSercurity.exe
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\InformationSercurity.deps.json
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\InformationSercurity.runtimeconfig.json
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\InformationSercurity.dll
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\ref\InformationSercurity.dll
+D:\Repositories\Console\InformationSercurity\bin\Debug\net6.0\InformationSercurity.pdb
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.dll
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\ref\InformationSercurity.dll
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.pdb
+D:\Repositories\Console\InformationSercurity\obj\Debug\net6.0\InformationSercurity.genruntimeconfig.cache
