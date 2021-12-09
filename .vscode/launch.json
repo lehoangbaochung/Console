@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DatagramServer",
+            "request": "launch",
+            "mainClass": "unit4.DatagramServer",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
             "name": "Launch Mutex",
             "request": "launch",
             "mainClass": "test.Mutex",
