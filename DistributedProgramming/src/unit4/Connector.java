@@ -29,7 +29,7 @@ public class Connector {
             String getline = dIn.readLine();
             StringTokenizer st = new StringTokenizer(getline);
             int hisId = Integer.parseInt(st.nextToken());
-            int destId = Integer.parseInt(st.nextToken());
+            //int destId = Integer.parseInt(st.nextToken());
             String tag = st.nextToken();
             if (tag.equals("hello")) {
                 link[hisId] = s;
