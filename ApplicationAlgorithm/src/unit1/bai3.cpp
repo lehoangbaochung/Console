@@ -15,10 +15,10 @@ int height(int a[], int n) {
 
 int main() {
 	int n;
-	cout << "Nhap N: "; cin >> n;
+	cin >> n;
 	int a[n];
 	for(int i=0;i<n;i++) {
 		cin >> a[i];
 	}
-	cout << "Chieu cao toi da: " << height(a,n);
+	cout << height(a,n);
 }

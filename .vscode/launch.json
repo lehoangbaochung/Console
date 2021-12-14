@@ -33,22 +33,6 @@
             "projectName": "Console_ead317a9"
         },
         {
-            "name": "ApplicationAlgorithm",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/ApplicationAlgorithm/bin/Debug/net6.0/ApplicationAlgorithm.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/ApplicationAlgorithm",
-            "console": "internalConsole",
-            "stopAtEntry": false,
-            "logging": {
-                "moduleLoad": false,
-                "processExit": false,
-                "requireExactSource": false
-            }
-        },
-        {
             "name": "InformationSercurity",
             "type": "coreclr",
             "request": "launch",

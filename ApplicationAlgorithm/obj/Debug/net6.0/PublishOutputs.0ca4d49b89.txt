@@ -1,5 +1,0 @@
-D:\Repositories\Console\ApplicationAlgorithm\bin\Debug\net6.0\publish\ApplicationAlgorithm.exe
-D:\Repositories\Console\ApplicationAlgorithm\bin\Debug\net6.0\publish\ApplicationAlgorithm.dll
-D:\Repositories\Console\ApplicationAlgorithm\bin\Debug\net6.0\publish\ApplicationAlgorithm.deps.json
-D:\Repositories\Console\ApplicationAlgorithm\bin\Debug\net6.0\publish\ApplicationAlgorithm.runtimeconfig.json
-D:\Repositories\Console\ApplicationAlgorithm\bin\Debug\net6.0\publish\ApplicationAlgorithm.pdb
