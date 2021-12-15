@@ -30,10 +30,12 @@ public class Mutex extends Thread {
 
     @Override
     public void run() {
-        lock.requestCS(id);
-        incrementer();
-        lock.releaseCS(id);
-        decrementer();
+        for (int i = 0; i < 50; i++) {
+            lock.requestCS(id);
+            incrementer();
+            decrementer();
+            lock.releaseCS(id);
+        }
     }
 
     public static void main(String[] args) throws InterruptedException {

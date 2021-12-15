@@ -5,9 +5,13 @@ public class BoundedBufferMonitor {
     private double[] buffers = new double[sizeBuffer];
     private int inBuffer = 0, outBuffer = 0, count = 0;
 
-    public synchronized void deposit(double value) throws InterruptedException {
+    public synchronized void deposit(double value) {
         while (count == sizeBuffer) { // buffer is full
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         count++;
         buffers[inBuffer] = value;
@@ -17,10 +21,14 @@ public class BoundedBufferMonitor {
         }
     }
 
-    public synchronized double fetch() throws InterruptedException {
+    public synchronized double fetch() {
         double value;
         while (count == 0) { // buffer is empty
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         count--;
         value = buffers[outBuffer];

@@ -8,18 +8,26 @@ public class BoundedBufferSemaphore {
     private CountingSemaphore isEmpty = new CountingSemaphore(0);
     private CountingSemaphore isFull = new CountingSemaphore(sizeBuffer);
 
-    public void deposit(double value) throws InterruptedException {
-        isFull.P(); // wait if buffer is full
-        mutex.P(); // ensures mutual exclusion
+    public void deposit(double value) {
+        try {
+            isFull.P(); // wait if buffer is full
+            mutex.P(); // ensures mutual exclusion
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }        
         buffers[inBuffer] = value; // update the buffer
         inBuffer = (inBuffer + 1) % sizeBuffer;
         mutex.V();
         isEmpty.V(); // notify any waiting customer
     }
 
-    public double fetch() throws InterruptedException {
-        isEmpty.P(); // wait if buffer is empty
-        mutex.P(); // ensures mutual exclusion
+    public double fetch() {
+        try {
+            isEmpty.P(); // wait if buffer is empty
+            mutex.P(); // ensures mutual exclusion
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         double value = buffers[outBuffer]; // read from buffer
         outBuffer = (outBuffer + 1) % sizeBuffer;
         mutex.V();

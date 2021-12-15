@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PerfectNumberSemaphore",
+            "request": "launch",
+            "mainClass": "test.PerfectNumberSemaphore",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectNumberMonitor",
+            "request": "launch",
+            "mainClass": "test.PerfectNumberMonitor",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectNumber",
+            "request": "launch",
+            "mainClass": "test.PerfectNumber",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
             "name": "Launch DatagramServer",
             "request": "launch",
             "mainClass": "unit4.DatagramServer",
