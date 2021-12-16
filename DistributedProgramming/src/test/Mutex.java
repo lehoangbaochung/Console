@@ -30,7 +30,7 @@ public class Mutex extends Thread {
 
     @Override
     public void run() {
-        for (int i = 0; i < 50; i++) {
+        while (true) {
             lock.requestCS(id);
             incrementer();
             decrementer();
@@ -38,15 +38,13 @@ public class Mutex extends Thread {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         counter = 0;
         Lock dekker = new Dekker();
         Mutex mutex1 = new Mutex(dekker, 0);
         Mutex mutex2 = new Mutex(dekker, 1);
         mutex1.start();
         mutex2.start();
-        mutex1.join();
-        mutex2.join();
         System.out.println("Result: Counter = " + counter);
     }
 }

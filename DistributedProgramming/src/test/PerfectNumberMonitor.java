@@ -1,7 +1,5 @@
 package test;
 
-import java.util.Random;
-
 import unit3.BoundedBufferMonitor;
 
 public class PerfectNumberMonitor {
@@ -16,9 +14,8 @@ public class PerfectNumberMonitor {
 
         @Override
         public void run() {
-            Random random = new Random();
             while (true) {
-                n = random.nextInt(100);
+                n = (int) (Math.random() * 100 + 1);
                 b.deposit(n);
             }
         }
@@ -31,33 +28,35 @@ public class PerfectNumberMonitor {
             this.b = b;
         }
 
+        private void check() {
+            int i = 1, sum = 0;
+            while (i <= n / 2) {
+                if (n % i == 0) {
+                    sum += i;
+                }
+                i++;
+            }
+            if (n == sum) {
+                System.out.println((int) n + " is a perfect number!");
+            } else {
+                // System.out.println((int) n + " is not a perfect number!");
+            }
+        }
+
         @Override
         public void run() {
-            int i = 1, sum = 0;
             while (true) {
                 n = b.fetch();
-                while (i <= n) {
-                    if (n % i == 0) {
-                        sum++;
-                    }
-                    i++;
-                }
-                if (n == sum && n != 0) {
-                    System.out.println((int) n + " is a perfect number!");
-                } else {
-                    // System.out.println((int) n + " is not a perfect number!");
-                }
+                check();
             }
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         BoundedBufferMonitor b = new BoundedBufferMonitor();
         T1 t1 = new T1(b);
         T2 t2 = new T2(b);
         t1.start();
         t2.start();
-        t1.join();
-        t2.join();
     }
 }

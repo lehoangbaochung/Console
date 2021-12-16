@@ -20,13 +20,6 @@
         },
         {
             "type": "java",
-            "name": "Launch PerfectNumber",
-            "request": "launch",
-            "mainClass": "test.PerfectNumber",
-            "projectName": "Console_ead317a9"
-        },
-        {
-            "type": "java",
             "name": "Launch DatagramServer",
             "request": "launch",
             "mainClass": "unit4.DatagramServer",
