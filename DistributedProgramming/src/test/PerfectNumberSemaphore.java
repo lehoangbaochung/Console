@@ -15,7 +15,7 @@ public class PerfectNumberSemaphore {
         @Override
         public void run() {
             while (true) {
-                n = (int)(Math.random() * 100 + 1);
+                n = (int) (Math.random() * 100 + 1);
                 b.deposit(n);
             }
         }

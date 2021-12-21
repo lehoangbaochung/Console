@@ -22,7 +22,6 @@ long long function(int n)
     	k = (n - 2) / 3;
         return function(2 * k) + function(2 * k + 1) + function(2 * k + 2);
 	}
-	return 0;  
 }
 
 int main()
