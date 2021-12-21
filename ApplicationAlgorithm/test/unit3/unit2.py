@@ -10,7 +10,7 @@ def fuction(n):
 n = int(input("Nhap n = "))
 for i in fuction(n):
     s = str(n) + " = "
-    for j in range(0, len(i) - 1):
-        s += str(i[j]) + "+"
-    s += str(i[len(i) - 1])
+    for j in i:
+        s += str(j) + "+"
+    s = s.removesuffix("+")
     print(s)
