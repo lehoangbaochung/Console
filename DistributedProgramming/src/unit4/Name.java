@@ -9,9 +9,10 @@ public class Name {
     PrintStream pout;
 
     public void getSocket() throws IOException {
-        Socket server = new Socket(Symbols.nameServer, Symbols.ServerPort);
-        din = new BufferedReader(new InputStreamReader(server.getInputStream()));
-        pout = new PrintStream(server.getOutputStream());
+        try (Socket server = new Socket(Symbols.nameServer, Symbols.ServerPort)) {
+            din = new BufferedReader(new InputStreamReader(server.getInputStream()));
+            pout = new PrintStream(server.getOutputStream());
+        }
     }
 
     public int insertName(String name, String hname, int portnum)

@@ -7,10 +7,14 @@ public class CountingSemaphore {
         this.value = value;
     }
 
-    public synchronized void P() throws InterruptedException {
+    public synchronized void P() {
         value--;
         if (value < 0) {
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

@@ -7,9 +7,13 @@ public class BinarySemaphore {
         this.value = value;
     }
 
-    public synchronized void P() throws InterruptedException {
+    public synchronized void P() {
         if (!value) {
-            wait(); // in queue of blocked processes
+            try {
+                wait(); // blocked processes in queue
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } 
         }
         value = false;
     }

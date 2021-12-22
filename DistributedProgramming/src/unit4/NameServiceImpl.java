@@ -42,7 +42,7 @@ public class NameServiceImpl extends UnicastRemoteObject implements NameService 
 
     public static void main(String args[]) {
         // create security manager
-        System.setSecurityManager(new RMISecurityManager());
+        System.setSecurityManager(new SecurityManager());
         try {
             NameServiceImpl obj = new NameServiceImpl();
             Naming.rebind("MyNameServer", obj);

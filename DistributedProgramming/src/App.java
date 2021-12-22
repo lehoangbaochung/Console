@@ -28,13 +28,11 @@ public class App extends Thread  {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Lock dekker = new Dekker();
         App app1 = new App(dekker, 0);
         App app2 = new App(dekker, 1);
         app1.start();
         app2.start();
-        app1.join();
-        app2.join();
     }
 }
