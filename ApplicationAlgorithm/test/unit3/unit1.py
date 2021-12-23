@@ -14,5 +14,4 @@ for i in fuction(n):
         s = str(n) + " = "
         for j in i:
             s += str(j) + "+"
-        s = s.removesuffix("+")
-        print(s)
+        print(s.removesuffix("+"))

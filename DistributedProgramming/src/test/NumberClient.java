@@ -15,7 +15,7 @@ public class NumberClient {
                 for (int i = 0; i < 10; i++) {
                     sendString += (int) (Math.random() * 100 + 1) + " ";
                 }
-                sendString.trim();
+                sendString = sendString.trim();
                 System.out.println("Client (send): " + sendString);
                 byte[] buffer = new byte[sendString.length()];
                 buffer = sendString.getBytes();
