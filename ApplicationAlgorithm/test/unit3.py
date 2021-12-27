@@ -8,9 +8,8 @@ def function(a, n):
     return k
 
 a = []
-N = int(input())
-for i in range(N):
-   n = int(input())
-   a.append(n)
+n = int(input())
+for i in range(n):
+   a.append(int(input()))
 a.sort()
-print(function(a, N))
+print(function(a, n))

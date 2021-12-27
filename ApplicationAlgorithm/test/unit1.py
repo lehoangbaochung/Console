@@ -9,9 +9,11 @@ def function(k):
         return 0
     else:
         i = 0
-        while (fibonacci(i) <= k):
+        n = 0
+        while (n <= k):
+            n = fibonacci(i)
             i += 1
-        return fibonacci(i)
+        return n
 
 k = int(input())
 print(function(k))
