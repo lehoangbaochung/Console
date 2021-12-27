@@ -7,7 +7,8 @@ public class Linker {
     PrintWriter[] dataOut;
     BufferedReader[] dataIn;
     BufferedReader dIn;
-    int myId, N;
+    protected int myId;
+    protected int N;
     Connector connector;
     public IntLinkedList neighbors = new IntLinkedList();
 

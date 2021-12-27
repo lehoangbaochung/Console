@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Chat",
+            "request": "launch",
+            "mainClass": "unit6.Chat",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberClient",
             "request": "launch",
             "mainClass": "test.NumberClient",

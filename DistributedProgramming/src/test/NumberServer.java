@@ -32,13 +32,13 @@ public class NumberServer {
         return numberSequence.trim();
     }
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws SocketException, InterruptedException {
         int port = 2018, length = 1024;
         try (DatagramSocket dataSocket = new DatagramSocket(port)) {
-            Thread thread = new Thread(() -> {
-                while (true) {
-                    byte[] buffers = new byte[length];
-                    DatagramPacket dataPacket = new DatagramPacket(buffers, buffers.length);
+            byte[] buffers = new byte[length];
+            DatagramPacket dataPacket = new DatagramPacket(buffers, buffers.length);
+            while (true) {
+                Thread thread = new Thread(() -> {
                     try {
                         dataSocket.receive(dataPacket);
                         String receiveString = new String(dataPacket.getData(), 0, dataPacket.getLength());
@@ -52,10 +52,10 @@ public class NumberServer {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-            });
-            thread.start();
-            thread.join();
+                });
+                thread.start();
+                thread.join();
+            }
         }
     }
 }
