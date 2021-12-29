@@ -19,8 +19,7 @@ public class NameServiceImpl extends UnicastRemoteObject implements NameService 
         return -1;
     }
 
-    public int insert(String s, String hostName, int portNumber)
-            throws RemoteException {
+    public int insert(String s, String hostName, int portNumber) throws RemoteException {
         int oldIndex = search(s); // is it already there
         if ((oldIndex == -1) && (dirsize < maxSize)) {
             names[dirsize] = s;
@@ -42,7 +41,7 @@ public class NameServiceImpl extends UnicastRemoteObject implements NameService 
 
     public static void main(String args[]) {
         // create security manager
-        System.setSecurityManager(new SecurityManager());
+        //System.setSecurityManager(new SecurityManager());
         try {
             NameServiceImpl obj = new NameServiceImpl();
             Naming.rebind("MyNameServer", obj);
