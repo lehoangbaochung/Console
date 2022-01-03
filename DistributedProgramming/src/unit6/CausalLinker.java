@@ -1,15 +1,14 @@
 package unit6;
 
 import java.util.*;
-import java.net.*;
 import java.io.*;
 
 import unit4.*;
 
 public class CausalLinker extends Linker {
     int M[][];
-    LinkedList deliveryQ = new LinkedList(); // deliverable messages
-    LinkedList pendingQ = new LinkedList(); // messages with matrix
+    LinkedList<CausalMessage> deliveryQ = new LinkedList<>(); // deliverable messages
+    LinkedList<CausalMessage> pendingQ = new LinkedList<>(); // messages with matrix
 
     public CausalLinker(String basename, int id, int numProc)
             throws Exception {
@@ -45,7 +44,7 @@ public class CausalLinker extends Linker {
     }
 
     synchronized void checkPendingQ() {
-        ListIterator iter = pendingQ.listIterator(0);
+        ListIterator<CausalMessage> iter = pendingQ.listIterator(0);
         while (iter.hasNext()) {
             CausalMessage cm = (CausalMessage) iter.next();
             if (okayToRecv(cm.getMatrix(), cm.getMessage().getSrcId())) {

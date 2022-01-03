@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberRmiClient",
+            "request": "launch",
+            "mainClass": "test.NumberRmiClient",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberRmiServer",
+            "request": "launch",
+            "mainClass": "test.NumberRmiServer",
+            "projectName": "Console_ead317a9"
+        },
+        {
+            "type": "java",
             "name": "Launch NameRmiClient",
             "request": "launch",
             "mainClass": "unit4.NameRmiClient",

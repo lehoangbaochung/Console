@@ -1,10 +1,7 @@
 def function(a, b):
-   a = sorted(a, reverse=True)
-   b = sorted(b, reverse=True)
    c = 0
-   merge_list = a + b
-   for i in merge_list:
-      if (i in a and i in b):
+   for i in a:
+      if (i in b):
          c += i
    return c
 

@@ -17,12 +17,11 @@ public class NumberClient {
                 }
                 sendString = sendString.trim();
                 System.out.println("Client (send): " + sendString);
-                byte[] buffer = new byte[sendString.length()];
-                buffer = sendString.getBytes();
+                byte[] buffer = sendString.getBytes();
                 sendPacket = new DatagramPacket(buffer, buffer.length, ia, port);
                 dataSocket.send(sendPacket);
-                byte[] rbuffer = new byte[length];
-                receivePacket = new DatagramPacket(rbuffer, rbuffer.length);
+                byte[] receiveBuffer = new byte[length];
+                receivePacket = new DatagramPacket(receiveBuffer, receiveBuffer.length);
                 dataSocket.receive(receivePacket);
                 String receiveString = new String(receivePacket.getData());
                 System.out.println("Client (receive): " + receiveString);
