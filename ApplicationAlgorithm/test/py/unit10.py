@@ -1,9 +1,18 @@
 def function(a, b):
-   c = 0
-   for i in a:
-      if (i in b):
-         c += i
-   return c
+   m = len(a)
+   n = len(b)
+   c = [[0 for _ in range(n)] for _ in range(m)]
+   print(c)
+   for i in range(m):
+      for j in range(n):
+         if i == 0 or j == 0:
+            c[i][j] = 0
+         elif a[i] == b[j]:
+            c[i][j] = c[i - 1][j - 1] + a[i]
+         else:
+            c[i][j] = max(c[i - 1][j], c[i][j - 1])
+   print(c)
+   return c[m - 1][n - 1]
 
 a = []
 b = []

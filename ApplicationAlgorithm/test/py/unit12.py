@@ -1,17 +1,17 @@
-def function(k):
-    result = set()
-    result.add((k, ))
-    for i in range(1, k):
-        for j in function(k - i):
-            result.add((i, ) + j)
-    return result
-
-def counter(k):
-    c = 0
-    for i in function(k):
-        if list(i) == list(set(i)) and len(i) > 1:
-            c += 1  
-    return c
+def function(a, b):
+    if b == 1:
+        if a == 1: 
+            return 1
+        else: 
+            return 0
+    c = a - b
+    if c == 0:
+        return function(a, b - 1) + 1
+    else:
+        if c < b:
+            return function(a, b - 1) + function(c, c)
+        else:
+            return function(a, b - 1) + function(c, b - 1)
 
 k = int(input("Nhap k = "))
-print("Co tat ca", counter(k), "cach phan tich.")
+print("Co tat ca", function(k, k) - 1, "cach phan tich.")
