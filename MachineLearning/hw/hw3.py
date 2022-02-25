@@ -1,7 +1,3 @@
-# Ho ten: Le Hoang Bao Chung
-# Lop: 60TH3
-# MSV: 1851061805
-
 # import libraries
 from __future__ import print_function
 import numpy as np 
