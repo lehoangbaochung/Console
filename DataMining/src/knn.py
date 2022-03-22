@@ -40,7 +40,7 @@ def find_most_occur(arr):
 # thực hiện phân lớp
 def classify(file_name):
     # load data
-    file = open(f"DataMining/data/{file_name}.csv", "r")
+    file = open(f"DataMining/data/{file_name}.csv", "r", encoding="utf-8")
     data = csv.reader(file)  # csv format
     data = np.array(list(data))  # covert to matrix
     data = np.delete(data, 0, 0)  # delete header
