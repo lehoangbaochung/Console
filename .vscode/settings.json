@@ -1,5 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "python.formatting.provider": "autopep8",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "python.linting.enabled": true
 }

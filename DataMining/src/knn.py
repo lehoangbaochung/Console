@@ -42,7 +42,7 @@ def classify(file_name):
     # load data
     file = open(f"DataMining/data/{file_name}.csv", "r", encoding="utf-8")
     data = csv.reader(file)  # csv format
-    data = np.array(list(data))  # covert to matrix
+    data = np.array(list(data))  # convert to matrix
     data = np.delete(data, 0, 0)  # delete header
     np.random.shuffle(data)  # shuffle data
     file.close()
@@ -51,16 +51,16 @@ def classify(file_name):
     trainSet = data[:100]  # training data from 1->100
     testSet = data[100:]  # the others is testing data
 
-    # duyệt qua các giá trị trong bộ giữ liệu test để kiểm tra
+    # duyệt qua các giá trị trong bộ dữ liệu test để kiểm tra
     numOfRightAnwser = 0
     for item in testSet:
         knn = k_nearest_neighbor(trainSet, item, 5)
         answer = find_most_occur(knn)
         numOfRightAnwser += item[-1] == answer
-        print("label: {} -> predicted: {}".format(item[-1], answer))
+        print(f"label: {item[-1]} -> predicted: {answer}")
     return numOfRightAnwser / len(testSet)
 
 
 # in ra quá trình phân lớp và độ chính xác tương ứng
-print("iris:", classify("iris"))
-print("wine:", classify("wine"))
+#print("iris:", classify("sc"))
+#print("wine:", classify("wine"))

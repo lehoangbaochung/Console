@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 def load_data(path):
 	ans = []
-	with open(path, "r") as f:
+	with open(path, "r", encoding='utf-8') as f:
 		reader = csv.reader(f)
 		for row in reader:
 			row = list(set(row))
@@ -15,7 +15,7 @@ def load_data(path):
 
 
 def save_rule(rule, path):
-	with open(path, "w") as f:
+	with open(path, "w", encoding='utf-8') as f:
 		f.write("index\tconfidence\trules\n")
 		index = 1
 		for item in rule:
@@ -85,7 +85,7 @@ class Fp_growth():
 					localD[item] = headerTable[item][0]
 			if len(localD) > 0:
 				order_item = [v[0] for v in sorted(localD.items(), key=lambda x:x[1], reverse=True)]
-			self.update_fptree(order_item, tree_header, headerTable)
+				self.update_fptree(order_item, tree_header, headerTable)
 		return tree_header, headerTable
 
 	def find_path(self, node, nodepath):
@@ -168,7 +168,7 @@ log_path = current_path + "/DataMining/log/"
 if not os.path.exists(log_path):
 	os.mkdir(log_path)
 
-file_names = ["iris", "wine", "bank"]
+file_names = ["sc"]
 for file_name in file_names:
     file_path = current_path + "/DataMining/data/" + file_name + ".csv"
     save_path = log_path + file_name + "_fpgrowth.txt"
