@@ -11,7 +11,7 @@ def load_data(path):
 			row = list(set(row))
 			row.sort()
 			ans.append(row)
-	return ans
+	return ans[1:]
 
 
 def save_rule(rule, path):
@@ -168,7 +168,7 @@ log_path = current_path + "/DataMining/log/"
 if not os.path.exists(log_path):
 	os.mkdir(log_path)
 
-file_names = ["sc"]
+file_names = ["score_revised"]
 for file_name in file_names:
     file_path = current_path + "/DataMining/data/" + file_name + ".csv"
     save_path = log_path + file_name + "_fpgrowth.txt"
@@ -176,5 +176,5 @@ for file_name in file_names:
 
     fpgrowth = Fp_growth()
     data = load_data(file_path)
-    rule_list = fpgrowth.generate_R(data, min_support=15, min_conf=0.7)
+    rule_list = fpgrowth.generate_R(data, min_support=10, min_conf=.7)
     save_rule(rule_list, save_path)

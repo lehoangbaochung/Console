@@ -58,9 +58,8 @@ def classify(file_name):
         answer = find_most_occur(knn)
         numOfRightAnwser += item[-1] == answer
         print(f"label: {item[-1]} -> predicted: {answer}")
-    return numOfRightAnwser / len(testSet)
+    return round(numOfRightAnwser / len(testSet), 2) * 100
 
 
 # in ra quá trình phân lớp và độ chính xác tương ứng
-#print("iris:", classify("sc"))
-#print("wine:", classify("wine"))
+print("score:", classify("scorrorre_revised"), '%')
