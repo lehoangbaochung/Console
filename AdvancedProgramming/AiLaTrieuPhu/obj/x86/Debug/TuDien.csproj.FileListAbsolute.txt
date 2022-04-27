@@ -1,0 +1,24 @@
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\bin\Debug\TuDien.exe
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\bin\Debug\TuDien.pdb
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.Main.resources
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.exe
+c:\users\asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.pdb
+C:\Users\Asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.csprojResolveAssemblyReference.cache
+C:\Users\Asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.LoginForm.resources
+C:\Users\Asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.Game.resources
+C:\Users\Asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption2.resources
+C:\Users\Asus\documents\visual studio 2010\Projects\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption3.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.exe
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.pdb
+D:\Code\C#\TuDien\TuDien\bin\Debug\TuDien.exe
+D:\Code\C#\TuDien\TuDien\bin\Debug\TuDien.pdb
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.csprojResolveAssemblyReference.cache
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Main.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption2.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption3.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.LoginForm.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Properties.Resources.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.csproj.GenerateResource.Cache

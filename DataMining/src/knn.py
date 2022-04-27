@@ -62,4 +62,4 @@ def classify(file_name):
 
 
 # in ra quá trình phân lớp và độ chính xác tương ứng
-print("score:", classify("scorrorre_revised"), '%')
+print("score:", classify("score_revised"), '%')

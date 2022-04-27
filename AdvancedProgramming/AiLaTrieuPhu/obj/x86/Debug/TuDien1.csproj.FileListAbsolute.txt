@@ -1,0 +1,24 @@
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Main.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption2.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.LoginForm.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Properties.Resources.resources
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien1.csproj.GenerateResource.Cache
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.exe
+D:\Code\C#\TuDien\TuDien\bin\Debug\TuDien.exe
+D:\Code\C#\TuDien\TuDien\bin\Debug\TuDien.pdb
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.pdb
+D:\Code\C#\TuDien\TuDien\obj\x86\Debug\TuDien.Game_HelpOption3.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien1.csprojAssemblyReference.cache
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.Game.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.Game_HelpOption3.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.Main.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.Game_HelpOption2.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.LoginForm.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.Properties.Resources.resources
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien1.csproj.GenerateResource.cache
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien1.csproj.CoreCompileInputs.cache
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.exe
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\obj\x86\Debug\TuDien.pdb
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\bin\Debug\TuDien.exe
+D:\Code\C#\Winform Apps\AiLaTrieuPhu\TuDien\bin\Debug\TuDien.pdb
