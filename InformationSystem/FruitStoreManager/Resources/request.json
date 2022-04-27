@@ -1,0 +1,18 @@
+{
+  "request": [
+    {
+      "Time": "20-01-13 01:53 PM",
+      "EmployeeID": "nv2",
+      "Title": "sửa thông tin",
+      "Content": "số điện thoại trước em mới bị mất nên em muốn sửa sđt thành 0373047812 ạ",
+      "Reply": "anh sửa cho em rồi đó"
+    },
+{
+      "Time": "20-01-21 11:53 AM",
+      "EmployeeID": "nv3",
+      "Title": "xin nghỉ làm",
+      "Content": "anh ơi tháng sau là tết nên em muốn xin nghỉ hết tháng sau ạ",
+      "Reply": "ok em nhớ lên sớm nhé"
+    }
+  ]
+}

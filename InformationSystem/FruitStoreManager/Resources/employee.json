@@ -1,0 +1,21 @@
+{"employee": [
+    {
+"ID": 1,
+	"EmployeeID": "nv1",
+      "Name": "Lê Hoàng Bảo Chung",
+      "Age": 20,
+"Address": "48 Ngọc Hồi",
+"PhoneNumber": "0586243970",
+"Salary": 20,
+"Worktime": 8
+    },
+    {
+"ID": 2,
+	"EmployeeID": "nv2",
+      "Name": "Nguyễn Trọng Nam",
+      "Age": 20,
+"Address": "210 Lê Trọng Tấn",
+"PhoneNumber": "0373047812",
+"Salary": 18,
+"Worktime": 6
+    },{"ID": 3,"EmployeeID":"nv3","Name":"Đào Minh Dương","Address":"290 Tây Sơn","PhoneNumber":"0378982346","Age":"20","Salary":"18","Worktime":"4"}]}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStoreManager", "FruitStoreManager\FruitStoreManager.csproj", "{94E3A9E6-5989-485F-A673-A336EE75C4B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E3A9E6-5989-485F-A673-A336EE75C4B2}.Debug|x86.ActiveCfg = Debug|x86
+		{94E3A9E6-5989-485F-A673-A336EE75C4B2}.Debug|x86.Build.0 = Debug|x86
+		{94E3A9E6-5989-485F-A673-A336EE75C4B2}.Release|x86.ActiveCfg = Release|x86
+		{94E3A9E6-5989-485F-A673-A336EE75C4B2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DCCC077-689D-4313-A8B0-FF5C8071455A}
+	EndGlobalSection
+EndGlobal

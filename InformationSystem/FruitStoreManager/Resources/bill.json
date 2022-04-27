@@ -1,0 +1,16 @@
+{"bill": [
+    {
+      "ID": 0,
+      "CustomerName": "Lê Hải Nam",
+      "EmployeeID": "nv1",
+"Time": "25-12-20 08:36 AM",
+"Total":255000,
+	"PaymentMethod": "Trực tiếp"
+    },
+    {
+      "ID": 1,
+      "CustomerName": "Phạm Quang Minh",
+      "EmployeeID": "nv1",
+"Time": "23-12-20 09:41 AM","Total":160000,
+	"PaymentMethod": "Trực tuyến"
+    },{"ID":2,"CustomerName":"Lê Văn Độ","PaymentMethod":"Trực tuyến","EmployeeID":"nv2","Time":"20-01-21 04:31 PM","Total":78000},{"ID":3,"CustomerName":"Tạ Thành Thắng","PaymentMethod":"Trực tiếp","EmployeeID":"nv1","Time":"20-01-21 05:00 PM","Total":14500},{"ID":4,"CustomerName":"Tạ Thành Thắng","PaymentMethod":"Trực tiếp","EmployeeID":"nv2","Time":"20-01-21 09:09 PM","Total":70000},{"ID":5,"CustomerName":"Nguyễn Ngọc Uyên","PaymentMethod":"Trực tiếp","EmployeeID":"nv2","Time":"20-01-21 09:52 PM","Total":128500}]}

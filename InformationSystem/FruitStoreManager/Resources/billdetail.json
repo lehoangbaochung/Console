@@ -1,0 +1,42 @@
+{"billdetail": [
+        {
+	"BillID": 0,
+          "ProductID": 1,
+"ProductName": "Bưởi Diễn",
+          "Count": 2,
+          "Price": 15000,
+	"Sum": 30000
+        },
+        {
+	"BillID": 0,
+          "ProductID": 2,
+"ProductName": "Táo xanh",
+          "Count": 3,
+          "Price": 25000,
+	"Sum": 75000
+        },
+        {
+	"BillID": 0,
+          "ProductID": 0,
+"ProductName": "Nho sữa",
+          "Count": 3,
+          "Price": 50000,
+	"Sum": 150000
+        },
+	{
+	"BillID": 1,
+          "ProductID": 1,
+"ProductName": "Bưởi Diễn",
+          "Count": 4,
+          "Price": 15000,
+	"Sum": 60000
+        },
+        {
+	"BillID": 1,
+          "ProductID": 2,
+"ProductName": "Táo xanh",
+          "Count": 4,
+          "Price": 25000,
+	"Sum": 100000
+        }
+      ,{"BillID":2,"ProductID":2,"ProductName":"Táo xanh","Count":0.4,"Price":25000,"Sum":10000},{"BillID":2,"ProductID":1,"ProductName":"Bưởi Diễn","Count":1.2,"Price":15000,"Sum":18000},{"BillID":2,"ProductID":0,"ProductName":"Nho sữa","Count":1.0,"Price":50000,"Sum":50000},{"BillID":3,"ProductID":"3","ProductName":"Mơ ngọt","Count":0.5,"Price":"10000","Sum":5000},{"BillID":3,"ProductID":2,"ProductName":"Táo xanh","Count":0.2,"Price":25000,"Sum":5000},{"BillID":3,"ProductID":1,"ProductName":"Bưởi Diễn","Count":0.3,"Price":15000,"Sum":4500},{"BillID":4,"ProductID":2,"ProductName":"Táo xanh","Count":1.2,"Price":25000,"Sum":30000},{"BillID":4,"ProductID":1,"ProductName":"Bưởi Diễn","Count":1.0,"Price":15000,"Sum":15000},{"BillID":4,"ProductID":0,"ProductName":"Nho sữa","Count":0.5,"Price":50000,"Sum":25000},{"BillID":0,"ProductID":0,"ProductName":"Nho sữa","Count":1.3,"Price":50000,"Sum":65000},{"BillID":0,"ProductID":2,"ProductName":"Táo xanh","Count":2.1,"Price":25000,"Sum":52500},{"BillID":0,"ProductID":"3","ProductName":"Mơ ngọt","Count":1.1,"Price":"10000","Sum":11000}]}

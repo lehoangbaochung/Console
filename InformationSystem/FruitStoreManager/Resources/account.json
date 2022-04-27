@@ -1,0 +1,28 @@
+{
+  "account": [
+    {
+      "ID": 0,
+      "Username": "admin",
+      "Password": "admin",
+      "Permission": "Quản lý"
+    },
+    {
+      "ID": 1,
+      "Username": "nv1",
+      "Password": "1234",
+      "Permission": "Nhân viên"
+    },
+    {
+      "ID": 2,
+      "Username": "nv2",
+      "Password": "123",
+      "Permission": "Nhân viên"
+    },
+    {
+      "ID": 3,
+      "Username": "nv3",
+      "Password": "12345",
+      "Permission": "Nhân viên"
+    }
+  ]
+}

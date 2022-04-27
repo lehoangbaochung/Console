@@ -1,0 +1,53 @@
+{
+  "customer": [
+    {
+      "ID": "1",
+      "Name": "Lê Hải Nam",
+      "Address": "12 Tôn Thất Tùng",
+      "PhoneNumber": "0135784920",
+      "Email": null
+    },
+    {
+      "ID": "2",
+      "Name": "Phạm Quang Minh",
+      "Address": "41 Nghi Tàm",
+      "PhoneNumber": "0129012901",
+      "Email": null
+    },
+    {
+      "ID": "4",
+      "Name": "Đỗ Phương Anh",
+      "Address": "453 Nguyễn Văn Cừ",
+      "PhoneNumber": "0327190323",
+      "Email": null
+    },
+    {
+      "ID": "4",
+      "Name": "Lê Văn Độ",
+      "Address": "110 Vĩnh Hồ",
+      "PhoneNumber": "0586243977",
+      "Email": "levando123@gmail.com"
+    },
+    {
+      "ID": "5",
+      "Name": "Tạ Thành Thắng",
+      "Address": "342 Minh Khai",
+      "PhoneNumber": "0527818811",
+      "Email": "thangta342@yahoo.com"
+    },
+    {
+      "ID": "6",
+      "Name": "Nguyễn Ngọc Uyên",
+      "Address": "4 Lê Thánh Tông",
+      "PhoneNumber": "0163456789",
+      "Email": null
+    },
+    {
+      "ID": "7",
+      "Name": "Nguyễn Hoài Nam",
+      "Address": "243 Hoàng Văn Thái",
+      "PhoneNumber": "0167689723",
+      "Email": null
+    }
+  ]
+}
