@@ -6,7 +6,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class KMapper extends Mapper<LongWritable, Text, LongWritable, PointWritable> {
-
 	private PointWritable[] currCentroids;
 	private final LongWritable centroidId = new LongWritable();
 	private final PointWritable pointInput = new PointWritable();
@@ -14,7 +13,6 @@ public class KMapper extends Mapper<LongWritable, Text, LongWritable, PointWrita
 	@Override
 	public void setup(Context context) {
 		int nClusters = Integer.parseInt(context.getConfiguration().get("k"));
-
 		this.currCentroids = new PointWritable[nClusters];
 		for (int i = 0; i < nClusters; i++) {
 			String[] centroid = context.getConfiguration().getStrings("C" + i);

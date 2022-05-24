@@ -185,7 +185,8 @@ public class Main extends Configured implements Tool {
             if (nLoop == MAX_LOOP) {
                 break;
             }
-            Job job = new Job(conf, "K-Mean");// Job thực hiện deepCopy conf
+            // Job thực hiện deepCopy conf
+            Job job = new Job(conf, "K-Mean");
             job.setJarByClass(Main.class);
             job.setMapperClass(KMapper.class);
             job.setCombinerClass(KCombiner.class);
